@@ -1,25 +1,28 @@
-* {
+*
+{
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif !important;
+body
+{
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Montserrat', sans-serif !important;
+    
 }
-
-#header {
+#header
+{
     width: 100%;
     float: left;
     position: relative;
     line-height: 70px;
     background-color: rgb(20, 36, 80);
     box-shadow: 0px 3px 5px 0px rgba(1, 0, 0, 0.4);
-    padding: 0 5px;
+    padding: 0px 5px;
     margin-bottom: 50px;
 }
-
-#logo {
+#logo
+{
     float: left;
     width: 90px;
     border-radius: 50%;
@@ -28,8 +31,8 @@ body {
     padding-bottom: 7px;
     background-size: 30px;
 }
-
-#home-banner {
+#home-banner
+{
     float: left;
     width: 100%;
     height: 100vh;
@@ -37,15 +40,15 @@ body {
     background-color: rgb(72, 67, 67);
     background-blend-mode: multiply;
     background-size: cover;
+    
 }
-
-.banner-c {
+.banner-c
+{
     width: 50%;
-    margin-top: 300px;
+    margin-top:300px ;
     margin-left: 50px;
 }
-
-.banner-c h1 {
+.banner-c h1{
     float: left;
     width: 100%;
     color: white;
@@ -53,18 +56,21 @@ body {
     font-weight: 900;
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
-}
 
-.banner-c p {
+    
+}
+.banner-c p
+{
     float: left;
     width: 100%;
     color: white;
     font-weight: bold;
     line-height: 25px;
     text-align: justify;
-}
 
-.banner-c a {
+}
+.banner-c a
+{
     float: left;
     color: white;
     border: 1px solid white;
@@ -73,78 +79,45 @@ body {
     padding: 10px 30px;
     border-radius: 30px;
     margin-top: 15px;
-}
 
-.banner-c a:hover {
-    background: rgb(120, 80, 6);
+}
+.banner-c a:hover
+{
+    background:rgb(120, 80, 6) ;
     color: white;
 }
 
 /* Style pour le menu */
-#menu {
+#menu
+{
     float: right;
     margin-right: 5%;
-    padding-left: 0 5%;
+    padding-left: 0px 5%;
     padding-top: 10px;
 }
-
 #menu ul {
     list-style: none;
     display: flex;
-}
-
-#menu li {
+  }
+  
+  #menu li {
     margin-right: 20px;
-}
-
-#menu li:last-child {
+  }
+  
+  #menu li:last-child {
     margin-right: 0;
-}
-
-#menu a {
+  }
+  
+  #menu a {
     text-decoration: none;
     color: #ffffff;
-}
-
-#menu img {
+  }
+  
+  #menu img {
     width: 20px; /* Ajustez la taille de l'icône de panier */
     height: auto;
-    color: #ffffff;
-}
-
-/* Ajout de styles pour les écrans de taille moyenne et plus grands */
-@media screen and (min-width: 768px) {
-    #logo {
-        width: 120px;
-        margin-left: 3%;
-    }
-    #menu {
-        margin-right: 3%;
-    }
-}
-
-/* Ajout de styles pour les écrans plus petits, comme les smartphones */
-@media screen and (max-width: 480px) {
-    #logo {
-        width: 70px;
-        margin-left: 2%;
-    }
-    #header {
-        line-height: 50px;
-    }
-    #menu {
-        display: none; /* Cacher le menu */
-    }
-    /* Afficher un bouton pour ouvrir le menu */
-    .menu-toggle {
-        display: block;
-        float: right;
-        margin-right: 5%;
-        color: white;
-        font-size: 24px;
-        cursor: pointer;
-    }
-}
+  color: #ffffff;
+  }
 
   
 .col-md-3 img{
