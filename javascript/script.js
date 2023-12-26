@@ -70,31 +70,4 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function() {
-    $(".album-posters").on('click', function(e){
-        var dataSwitchId = $(this).attr('data-switches');
-        ap.list.switch(dataSwitchId);
-        ap.play();
-        $("#aplayer").addClass('showPlayer');
-    });
-
-    const ap = new APlayer({
-        container: document.getElementById('aplayer'),
-        listFolded: true,
-        audio: [
-            {
-				name: 'Oceans',
-				artist: 'YMP',
-				url: 'source/oceans.mp3',
-				cover: 'pictures/oceans.jpeg',
-			},
-            {
-				name: 'Gospel',
-				artist: 'YMP',
-				url: 'source/piano.mp3',
-				cover: 'https://images.pexels.com/photos/838702/pexels-photo-838702.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-			},
-        ]
-    });
-});
 
