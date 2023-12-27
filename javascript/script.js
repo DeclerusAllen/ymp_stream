@@ -59,12 +59,7 @@ $(document).ready(function() {
 				url: 'source/wey.mp3',
 				cover: 'pictures/wey.png',
 			},
-            {
-				name: 'Oceans',
-				artist: 'YMP',
-				url: 'source/oceans.mp3',
-				cover: 'pictures/oceans.jpeg',
-			},
+           
         ]
     });
 });
